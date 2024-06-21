@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оздоровительный центр Salinas</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="header-top">
+            <img src="logo.png" alt="Salinas Logo" class="logo">
+            <a href="#footer"><button class="call-button">ПОЗВОНИТЬ</button></a>
+        </div>
+        <nav>
+            <div class="menu-dots">
+                <!-- <div class="dot"></div>
+                <div class="dot"></div> -->
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="intro">
+    <svg class="heart-svg" viewBox="0 0 32 29.6">
+        <path class="path" fill="none" stroke="#FF1493" stroke-width="2" d="M23.5,2.5c0,0-7.5,0-7.5,7.5s7.5-7.5,7.5-7.5S31,10,23.5,17.6S16,31.1,16,31.1s-7.5-13.5-7.5-13.5S1,10,8.5,2.5s7.5,7.5,7.5,7.5S16,2.5,23.5,2.5z"/>
+      </svg>
+      
+      <svg class="heart-svg" viewBox="0 0 32 29.6">
+        <path class="path" fill="none" stroke="#FF1493" stroke-width="2" d="M23.5,2.5c0,0-7.5,0-7.5,7.5s7.5-7.5,7.5-7.5S31,10,23.5,17.6S16,31.1,16,31.1s-7.5-13.5-7.5-13.5S1,10,8.5,2.5s7.5,7.5,7.5,7.5S16,2.5,23.5,2.5z"/>
+      </svg>
+      
+      <svg class="heart-svg" viewBox="0 0 32 29.6">
+        <path class="path" fill="none" stroke="#FF1493" stroke-width="2" d="M23.5,2.5c0,0-7.5,0-7.5,7.5s7.5-7.5,7.5-7.5S31,10,23.5,17.6S16,31.1,16,31.1s-7.5-13.5-7.5-13.5S1,10,8.5,2.5s7.5,7.5,7.5,7.5S16,2.5,23.5,2.5z"/>
+      </svg>
+    <h1>ОЗДОРОВИТЕЛЬНЫЙ ЦЕНТР SALINAS</h1>
+    <p class="subtitle">курорт рядом с домом</p>
+    <div class="intro-images">
+        <img class="" src="11.png" alt="Image 1">
+        <img src="12.jpg" alt="Image 2">
+        <img src="13.jpg" alt="Image 3">
+    </div>
+    <div class="container">
+        <form class="form" id="myForm">
+          <!-- Поля формы -->
+          <label for="fname">Имя:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Фамилия:</label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for="phone">Номер:</label><br>
+          <input type="tel" id="phone" name="phone"><br>
+          <label for="email">Почта:</label><br>
+          <input type="email" id="email" name="email"><br>
+          
+          <!-- Чекбоксы для выбора услуг -->
+          <fieldset>
+            <legend>Услуги:</legend>
+            <label><input type="checkbox" name="services" value="1"> Флоат камера</label><br>
+            <label><input type="checkbox" name="services" value="2"> Соляная пещера</label><br>
+            <label><input type="checkbox" name="services" value="3"> Коллагенарий</label><br>
+            <label><input type="checkbox" name="services" value="4"> Физио массаж</label><br>
+            <label><input type="checkbox" name="services" value="5"> Спа одеяло</label><br>
+            <label><input type="checkbox" name="services" value="6"> Кислородный коктейль</label><br>
+            <label><input type="checkbox" name="services" value="7"> ИК сауна</label><br>
+            <label><input type="checkbox" name="services" value="8"> Оздоровительный массаж</label><br>
+          </fieldset>
+          
+          <button type="submit"  class="relax-button" id="myBtn">ОТДОХНУТЬ</button>
+        </form>
+      </div>
+
+</section>
+
+
+  
+
+<!-- Dropdown Menu -->
+<div class="dropdown">
+    <label for="services-filter">Выберите категорию:</label>
+    <select id="services-filter">
+        <option value="all">Все услуги</option>
+        <option value="children">Для детей</option>
+        <option value="moms">Для будущих мам</option>
+        <option value="men">Для него</option>
+        <option value="women">Для неё</option>
+        <option value="company">Для компании</option>
+    </select>
+</div>
+
+<section class="services">
+    <h2>услуги:</h2>
+    <div class="service-icons">
+        <a href="index_2.html"><div class="icon service" data-category="children moms women">
+            <img src="1.png" alt="Флоат камера">
+            <p>Флоат камера</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="children moms company">
+            <img src="2.png" alt="Соляная пещера">
+            <p>Соляная пещера</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="men women">
+            <img src="3.png" alt="Коллагенарий">
+            <p>Коллагенарий</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="men women">
+            <img src="4.png" alt="Физио массаж">
+            <p>Физио массаж</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="children moms women">
+            <img src="5.png" alt="Спа одеяло">
+            <p>Спа одеяло</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="children">
+            <img src="6.png" alt="Кислородный коктейль">
+            <p>Кислородный коктейль</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="men moms">
+            <img src="7.png" alt="ИК сауна">
+            <p>ИК сауна</p>
+        </div></a>
+        <a href="index_2.html"><div class="icon service" data-category="company">
+            <img src="8.png" alt="Оздоровительный массаж">
+            <p>Оздоровительный массаж</p>
+        </div></a>
+        
+    </div>
+</section>
+
+<section class="price-list">
+    <h2>прайс<br>ПРОГРАММЫ</h2>
+    <div class="programs">
+        <div class="program">
+            <h3>море во мне</h3>
+            <p>1 сеанс – 1 человек<br>флоатинг или скрабирование + массаж 60 минут + чаепитие 30 минут</p>
+            <p>2 часа<br>5000 рублей</p>
+        </div>
+        <div class="program">
+            <h3>для нее</h3>
+            <p>1 сеанс – 1 человек<br>ИК сауна + шоколадное обертывание или массаж 60 минут + чаепитие 30 минут</p>
+            <p>2 часа<br>3500 рублей</p>
+        </div>
+        <div class="program">
+            <h3>для него</h3>
+            <p>1 сеанс – 1 человек<br>ИК сауна + шоколадное обертывание или массаж 60 минут + чаепитие 30 минут</p>
+            <p>2 часа<br>3000 рублей</p>
+        </div>
+    </div>
+</section>
+
+<section class="promotions">
+    <h2>Актуальные акции и программы</h2>
+    <div class="slider">
+        <div class="slide"><img src="1slaid.png" alt="Promo 1"></div>
+        <div class="slide"><img src="2slaid.png" alt="Promo 2"></div>
+        <div class="slide"><img src="3slaid.png" alt="Promo 3"></div>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+<section class="about-us">
+    <h2>О нас</h2>
+    <p>Здравствуйте, меня зовут Анастасия Халимова, я руководитель оздоровительного центра Salinas wellness.</p>
+    <p>Я убеждена, что лучшее лечение – это профилактика.</p>
+    <img src="IMG_1093.jpg" alt="About Us Image">
+</section>
+
+<section class="facts">
+    <h2>факты о нас</h2>
+    <div class="facts-container">
+        <div class="fact-circle">
+            <p>В нашей уютной соляной пещере у вас рассеивается соляной аэрозоль, что более комфортно и полезно чем 5 дней на море</p>
+        </div>
+        <div class="fact-circle">
+            <p>У нас единственная в Хакасии "флоат-камера", в которой вы сможете на себе почувствовать, что же такое невесомость</p>
+        </div>
+        <div class="fact-circle">
+            <p>Мы используем только однородные средства для очищения и тщательной гигиены, о чем говорят отзывы наших клиентов</p>
+        </div>
+        <div class="fact-circle">
+            <p>В нашей сауне с комплектами пилинга вы сохраняете блеск без вреда для вашей кожи</p>
+        </div>
+    </div>
+</section>
+
+
+
+<footer id="footer">
+    <p>© 2024 «SALINAS»</p>
+    <p>ИМЕЮТСЯ ПРОТИВОПОКАЗАНИЯ, ПРОКОНСУЛЬТИРУЙТЕСЬ СО СПЕЦИАЛИСТОМ</p>
+    <p>+7 (290) 35-88-50</p>
+    <p>+7-995-432-88-50</p>
+    <p>ПР. ДРУЖБЫ НАРОДОВ, 48/3/1, ПОМЕЩЕНИЕ 1, ЭТАЖ 1</p>
+</footer>
+
+<script src="script2.js"></script>
+</body>
+</html>
